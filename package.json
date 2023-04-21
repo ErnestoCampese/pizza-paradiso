@@ -1,0 +1,73 @@
+{
+  "name": "pizza-paradiso",
+  "version": "1.0.0",
+  "description": "A simple one page website for a fictional pizzeria to practice HTML, CSS, and Flexbox skills.",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnestoCampese/pizza-paradiso.git"
+  },
+  "keywords": [
+    "pizza",
+    "pizzeria",
+    "restaurant",
+    "food",
+    "menu",
+    "order",
+    "delivery",
+    "takeout",
+    "toppings",
+    "cheese",
+    "sauce",
+    "crust",
+    "pepperoni",
+    "sausage",
+    "mushrooms",
+    "olives",
+    "tomatoes",
+    "garlic",
+    "basil",
+    "parmesan",
+    "mozzarella",
+    "Italian",
+    "cuisine",
+    "dining",
+    "eatery",
+    "meal",
+    "lunch",
+    "dinner",
+    "specials",
+    "promotions",
+    "deals",
+    "coupons",
+    "loyalty",
+    "rewards",
+    "customer",
+    "service",
+    "contact",
+    "us",
+    "location",
+    "hours",
+    "about",
+    "us",
+    "mission",
+    "values",
+    "quality",
+    "freshness",
+    "tradition",
+    "family-owned",
+    "community"
+  ],
+  "author": "Ernesto Campese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErnestoCampese/pizza-paradiso/issues"
+  },
+  "homepage": "https://github.com/ErnestoCampese/pizza-paradiso#readme"
+}
