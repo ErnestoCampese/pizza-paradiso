@@ -9,111 +9,106 @@
   </head>
   <body>
     <div class="container">
+      <header class="header">
+        <div class="header__logo-container">
+          <!-- <img class="header__logo" src="" alt="Pizza Paradiso logo" srcset=""> -->
+          <p class="header__logo-text">Pizza Paradiso Logo</p>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="#home">Home</a></li>
+            <li class="header__nav-item"><a href="#menu">Menu</a></li>
+            <li class="header__nav-item"><a href="#about">About Us</a></li>
+            <li class="header__nav-item"><a href="#order">Order Online</a></li>
+            <li class="header__nav-item"><a href="#reservation">Reservation</a></li>
+            <li class="header__nav-item"><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="header__user-actions">
+          <div class="header__basket-icon"></div>
+          <div class="header__login-button">
+            <button class="button button--login">Log In</button>
+          </div>
+        </div>
+      </header>
+
       <main>
-        <header class="site-header">
-          <div class="logo-container">
-            <!-- <img class="logo" src="" alt="Pizza Paradiso logo" srcset="" /> -->
-            <p>Pizza Paradiso Logo</p>
-          </div>
-          <nav class="main-nav">
-            <ul>
-              <li>Home</li>
-              <li>Menu</li>
-              <li>About Us</li>
-              <li>Order Online</li>
-              <li>Reservation</li>
-              <li>Contact Us</li>
-            </ul>
-          </nav>
-          <div class="user-actions">
-            <div class="basket-icon"></div>
-            <div class="login-button">
-              <button class="button button--login">Log In</button>
-            </div>
-          </div>
-        </header>
         <section class="cta-showcase">
-          <div class="cta-showcase-content">
-            <h1 class="cta-showcase-heading">Tradition and Passion</h1>
-            <h2 class="cta-showcase-subheading">A slice of heaven</h2>
-            <p class="cta-showcase-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              tempore? In explicabo cum doloremque dicta quibusdam. Dolore
-              quibusdam eum, natus eveniet a dicta odio, possimus porro
-              obcaecati iusto quisquam asperiores. Ducimus neque dignissimos at
-              voluptas tempora accusantium amet fugit saepe. Molestias ipsum
-              maxime odit animi, accusamus cum commodi assumenda mollitia dicta
-              consequuntur obcaecati pariatur est impedit modi! Numquam,
-              expedita omnis?
+          <div class="cta-showcase__content">
+            <h1 class="cta-showcase__heading">Tradition and Passion</h1>
+            <h2 class="cta-showcase__subheading">A slice of heaven</h2>
+            <p class="cta-showcase__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, tempore? In explicabo
+              cum doloremque dicta quibusdam. Dolore quibusdam eum, natus eveniet a dicta odio,
+              possimus porro obcaecati iusto quisquam asperiores. Ducimus neque dignissimos at
+              voluptas tempora accusantium amet fugit saepe. Molestias ipsum maxime odit animi,
+              accusamus cum commodi assumenda mollitia dicta consequuntur obcaecati pariatur est
+              impedit modi! Numquam, expedita omnis?
             </p>
-            <div class="cta-showcase-buttons">
+            <div class="cta-showcase__buttons">
               <button class="button button--order">Order Now</button>
               <button class="button button--reservation">Reservation</button>
             </div>
           </div>
-          <div class="cta-showcase-image">
+          <div class="cta-showcase__image">
             <img
-              class="cta-showcase-image"
-              src=""
+              class="cta-showcase__image-img"
+              src="img/showcase.jpg"
               alt="Pizza Paradiso showcase image"
-              srcset=""
             />
           </div>
         </section>
-        <section class="pizzas-menu">
-          <div class="pizza-card">
-            <div class="pizza-card__image">
-              <img src="https://fakepizzaimage1.com" alt="Pepperoni Pizza" />
+
+        <section class="pizzas-menu" id="menu">
+          <h2 class="pizzas-menu__heading">Our Menu</h2>
+          <div class="pizzas-menu__cards-container">
+            <div class="pizzas-menu__card">
+              <img class="pizzas-menu__card-image" src="images/pizza-1.jpg" alt="Pepperoni Pizza" />
+              <h3 class="pizzas-menu__card-heading">Pepperoni Pizza</h3>
+              <p class="pizzas-menu__card-description">
+                Our classic pepperoni pizza is made with tomato sauce, mozzarella cheese, and spicy
+                pepperoni.
+              </p>
+              <p class="pizzas-menu__card-price">$12.99</p>
+              <button class="pizzas-menu__card-button">Add to Cart</button>
             </div>
-            <h3 class="pizza-card__name">Pepperoni Pizza</h3>
-            <p class="pizza-card__description">
-              Experience the classic taste of Italy with our Pepperoni Pizza.
-              Topped with tomato sauce, premium mozzarella cheese, and spicy
-              pepperoni slices, this pizza is sure to satisfy your cravings.
-            </p>
-            <p class="pizza-card__price">$15.99</p>
-          </div>
-          <div class="pizza-card">
-            <div class="pizza-card__image">
-              <img src="https://fakepizzaimage2.com" alt="Margherita Pizza" />
+            <div class="pizzas-menu__card">
+              <img
+                class="pizzas-menu__card-image"
+                src="images/pizza-2.jpg"
+                alt="Vegetarian Pizza"
+              />
+              <h3 class="pizzas-menu__card-heading">Vegetarian Pizza</h3>
+              <p class="pizzas-menu__card-description">
+                Our vegetarian pizza is made with fresh vegetables, tomato sauce, and mozzarella
+                cheese.
+              </p>
+              <p class="pizzas-menu__card-price">$11.99</p>
+              <button class="pizzas-menu__card-button">Add to Cart</button>
             </div>
-            <h3 class="pizza-card__name">Margherita Pizza</h3>
-            <p class="pizza-card__description">
-              Indulge in the simplicity of our Margherita Pizza. Topped with
-              fresh tomato sauce, imported mozzarella cheese, and fragrant basil
-              leaves, this pizza is a timeless classic that never fails to
-              impress.
-            </p>
-            <p class="pizza-card__price">$14.99</p>
-          </div>
-          <div class="pizza-card">
-            <div class="pizza-card__image">
-              <img src="https://fakepizzaimage3.com" alt="Hawaiian Pizza" />
+            <div class="pizzas-menu__card">
+              <img
+                class="pizzas-menu__card-image"
+                src="images/pizza-3.jpg"
+                alt="Margherita Pizza"
+              />
+              <h3 class="pizzas-menu__card-heading">Margherita Pizza</h3>
+              <p class="pizzas-menu__card-description">
+                Our classic margherita pizza is made with tomato sauce, fresh mozzarella cheese, and
+                basil.
+              </p>
+              <p class="pizzas-menu__card-price">$10.99</p>
+              <button class="pizzas-menu__card-button">Add to Cart</button>
             </div>
-            <h3 class="pizza-card__name">Hawaiian Pizza</h3>
-            <p class="pizza-card__description">
-              Escape to a tropical paradise with our Hawaiian Pizza. Topped with
-              juicy ham, sweet pineapple chunks, savory bacon bits, and premium
-              mozzarella cheese, this pizza is the perfect blend of sweet and
-              salty flavors.
-            </p>
-            <p class="pizza-card__price">$18.99</p>
-          </div>
-          <div class="pizza-card">
-            <div class="pizza-card__image">
-              <img src="https://fakepizzaimage4.com" alt="Meat Lover's Pizza" />
-            </div>
-            <h3 class="pizza-card__name">Meat Lover's Pizza</h3>
-            <p class="pizza-card__description">
-              Satisfy your carnivorous cravings with our Meat Lover's Pizza.
-              Topped with zesty tomato sauce, premium mozzarella cheese, spicy
-              pepperoni, succulent sausage, juicy ham, and crispy bacon, this
-              pizza is the ultimate feast for meat lovers.
-            </p>
-            <p class="pizza-card__price">$21.99</p>
           </div>
         </section>
       </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <p class="footer__text">© 2023 Pizza Paradiso</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
