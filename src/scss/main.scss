@@ -17,3 +17,19 @@ body {
 }
 
 /* Additional Styles */
+
+body {
+  background-color: #223d44;
+  color: #ebf2fa;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 100%; /* Take full width by default */
+  max-width: 120rem; /* Limit to 1200px */
+  margin: 0 auto; /* Center horizontally */
+  padding: 0 1.6rem;
+}
