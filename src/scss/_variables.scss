@@ -1,0 +1,76 @@
+/* Variables */
+
+:root {
+  --primary-color: [color];
+  --secondary-color: [color];
+  --background-color: [color];
+  --text-color: [color];
+  --link-color: [color];
+  --link-hover-color: [color];
+  --heading-color: [color];
+
+  --font-family: [font];
+  --font-size: [size];
+  --line-height: [size];
+  --heading-font: [font];
+  --heading-size: [size];
+  --heading-line-height: [size];
+
+  --button-background-color: [color];
+  --button-text-color: [color];
+  --button-hover-background-color: [color];
+  --button-hover-text-color: [color];
+  --button-border-radius: [size];
+
+  --form-input-background-color: [color];
+  --form-input-text-color: [color];
+  --form-input-border-color: [color];
+  --form-input-border-radius: [size];
+
+  --container-max-width: [size];
+  --header-height: [size];
+  --footer-height: [size];
+  --content-padding: [size];
+  --section-padding: [size];
+
+  --box-shadow: [value];
+  --transition-duration: [value];
+
+  --font-size-xs: 0.8rem;
+  --font-size-sm: 1rem;
+  --font-size-md: 1.6rem;
+  --font-size-lg: 2.4rem;
+  --font-size-xl: 3.2rem;
+  --font-size-xxl: 4.8rem;
+
+  --line-height-xs: 1.2rem;
+  --line-height-sm: 1.4rem;
+  --line-height-md: 1.6rem;
+  --line-height-lg: 1.8rem;
+  --line-height-xl: 2.2rem;
+  --line-height-xxl: 2.8rem;
+
+  --spacing-xxs: 0.2rem;
+  --spacing-xs: 0.4rem;
+  --spacing-sm: 0.8rem;
+  --spacing-md: 1.2rem;
+  --spacing-lg: 1.6rem;
+  --spacing-xl: 2.4rem;
+  --spacing-xxl: 3.2rem;
+
+  --width-xxs: 0.4rem;
+  --width-xs: 0.8rem;
+  --width-sm: 1.6rem;
+  --width-md: 3.2rem;
+  --width-lg: 4.8rem;
+  --width-xl: 6.4rem;
+  --width-xxl: 9.6rem;
+
+  --height-xxs: 0.4rem;
+  --height-xs: 0.8rem;
+  --height-sm: 1.6rem;
+  --height-md: 3.2rem;
+  --height-lg: 4.8rem;
+  --height-xl: 6.4rem;
+  --height-xxl: 9.6rem;
+}
