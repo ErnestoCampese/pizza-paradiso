@@ -1,40 +1,37 @@
-/* Variables */
-
 :root {
-  --primary-color: [color];
-  --secondary-color: [color];
-  --background-color: [color];
-  --text-color: [color];
-  --link-color: [color];
-  --link-hover-color: [color];
-  --heading-color: [color];
+  //   --bittersweet: #ef6461;
+  //   --earth-yellow: #e4b363;
+  //   --gunmetal: #2b303a;
+  //   --isabelline: #eeede8;
+  //   --dark-spring-green: #297045;
 
-  --font-family: [font];
-  --font-size: [size];
-  --line-height: [size];
-  --heading-font: [font];
-  --heading-size: [size];
-  --heading-line-height: [size];
+  --primary-color: #ef6461;
+  --secondary-color: #297045;
+  --background-color: #2b303a;
+  --text-color: #eeede8;
+  --link-color: #eeede8;
+  --link-hover-color: #e4b363;
+  --link-hover-weight: 400;
+  --link-visited-color: #eeede8;
+  --heading-color: #eeede8;
 
-  --button-background-color: [color];
-  --button-text-color: [color];
-  --button-hover-background-color: [color];
-  --button-hover-text-color: [color];
-  --button-border-radius: [size];
+  //   --button-background-color: [color];
+  //   --button-text-color: [color];
+  //   --button-hover-background-color: [color];
+  //   --button-hover-text-color: [color];
+  //   --button-border-radius: [size];
 
-  --form-input-background-color: [color];
-  --form-input-text-color: [color];
-  --form-input-border-color: [color];
-  --form-input-border-radius: [size];
+  --container-max-width: 120rem;
+  //   --header-height: [size];
+  //   --footer-height: [size];
+  //   --content-padding: [size];
+  //   --section-padding: [size];
 
-  --container-max-width: [size];
-  --header-height: [size];
-  --footer-height: [size];
-  --content-padding: [size];
-  --section-padding: [size];
+  //   --box-shadow: [value];
+  --transition-duration-xs: 0.2s;
+  --transition-duration-sm: 0.5s;
 
-  --box-shadow: [value];
-  --transition-duration: [value];
+  --transform-scale-xs: 1.2;
 
   --font-size-xs: 0.8rem;
   --font-size-sm: 1rem;
@@ -50,13 +47,13 @@
   --line-height-xl: 2.2rem;
   --line-height-xxl: 2.8rem;
 
-  --spacing-xxs: 0.2rem;
-  --spacing-xs: 0.4rem;
-  --spacing-sm: 0.8rem;
-  --spacing-md: 1.2rem;
-  --spacing-lg: 1.6rem;
-  --spacing-xl: 2.4rem;
-  --spacing-xxl: 3.2rem;
+  --spacing-xxs: 0.4rem;
+  --spacing-xs: 0.8rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.6rem;
+  --spacing-lg: 3.2rem;
+  --spacing-xl: 6.4rem;
+  --spacing-xxl: 9.6rem;
 
   --width-xxs: 0.4rem;
   --width-xs: 0.8rem;
