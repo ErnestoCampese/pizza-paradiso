@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: var(--spacing-lg);
+  gap: var(--spacing-md);
+  align-content: center;
+
+  &__logo {
+    flex: 0 0 15rem;
+
+    &-img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+    &-list {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      justify-content: center;
+      gap: var(--spacing-xl);
+      flex: 1;
+
+      &-item {
+      }
+    }
+  }
+
+  &__user-actions {
+    display: flex;
+    flex: 1 1 10rem;
+    justify-content: center;
+    gap: var(--spacing-md);
+  }
+
+  &__basket {
+    flex: 0 0 2rem;
+
+    &-icon {
+      max-width: 100%;
+    }
+  }
+}
