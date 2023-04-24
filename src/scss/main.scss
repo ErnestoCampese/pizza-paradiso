@@ -8,17 +8,6 @@ body {
   height: 100vh;
 }
 
-.container {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  max-width: var(--container-max-width);
-  min-height: 100%;
-  margin: 0 auto;
-  padding: 0 var(--spacing-xl);
-  gap: var(--spacing-xl);
-}
-
 a:link {
   text-decoration: none;
   color: var(--link-color);
@@ -35,4 +24,15 @@ a:hover {
 
 a:active {
   color: var(--link-color);
+}
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  max-width: var(--container-max-width);
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  gap: var(--spacing-xl);
 }

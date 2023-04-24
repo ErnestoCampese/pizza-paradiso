@@ -6,16 +6,21 @@
   justify-content: space-between;
   margin-top: var(--spacing-lg);
   gap: var(--spacing-sm);
+  background-color: var(--header-background-color);
 
   &__logo {
-    img {
-      width: 25rem;
+    flex-basis: var(--logo-width);
+
+    &-img {
+      max-width: 100%;
+      height: auto;
     }
   }
 
   &__nav {
     display: flex;
     align-items: center;
+    font-family: var(--nav-text-font);
 
     &-list {
       display: flex;
@@ -26,13 +31,10 @@
     }
 
     &-item {
-      a {
-        text-transform: uppercase;
-        letter-spacing: 0.25rem;
-        font-size: var(--font-size-sm);
-        font-weight: 600;
-        font-family: "Cinzel", serif;
-      }
+      text-transform: uppercase;
+      letter-spacing: var(--spacing-xxxs);
+      font-size: var(--font-size-sm);
+      font-weight: 600;
 
       & + &::before {
         content: "/";
@@ -40,21 +42,6 @@
         color: var(--primary-color);
         font-weight: bold;
       }
-    }
-  }
-
-  &__user-actions {
-    display: flex;
-    flex: 1 1 10rem;
-    justify-content: center;
-    gap: var(--spacing-md);
-  }
-
-  &__basket {
-    flex: 0 0 2rem;
-
-    &-icon {
-      max-width: 100%;
     }
   }
 }
