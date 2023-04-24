@@ -15,6 +15,24 @@ body {
   max-width: var(--container-max-width);
   min-height: 100%;
   margin: 0 auto;
-  padding: 0 var(--spacing-lg);
+  padding: 0 var(--spacing-xl);
   gap: var(--spacing-xl);
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-visited-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  transition: all var(--transition-duration-sm) ease-in-out;
+}
+
+a:active {
+  color: var(--link-color);
 }
