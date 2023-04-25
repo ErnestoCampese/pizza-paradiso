@@ -1,11 +1,13 @@
 @import "variables";
 @import "reset";
 @import "header";
+@import "hero";
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   height: 100vh;
+  position: relative;
 }
 
 a:link {

@@ -6,7 +6,7 @@
   justify-content: space-between;
   margin-top: var(--spacing-lg);
   gap: var(--spacing-sm);
-  background-color: var(--header-background-color);
+  //background-color: var(--header-background-color);
 
   &__logo {
     flex-basis: var(--logo-width);
@@ -20,7 +20,7 @@
   &__nav {
     display: flex;
     align-items: center;
-    font-family: var(--nav-text-font);
+    font-family: var(--primary-text-font);
 
     &-list {
       display: flex;

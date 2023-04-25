@@ -1,10 +1,4 @@
 :root {
-  //   --bittersweet: #ef6461;
-  //   --earth-yellow: #e4b363;
-  //   --gunmetal: #2b303a;
-  //   --isabelline: #eeede8;
-  //   --dark-spring-green: #297045;
-
   --primary-color: #ca8e46;
   --secondary-color: #121217;
   --background-color: #18181d;
@@ -15,7 +9,8 @@
 
   --header-background-color: #18181d;
   --logo-width: 25rem;
-  --nav-text-font: "Cinzel", serif;
+  --primary-text-font: "Cinzel", serif;
+  --secondary-text-font: "Montserrat", serif;
 
   //   --button-background-color: [color];
   //   --button-text-color: [color];
@@ -41,6 +36,7 @@
   --font-size-lg: 2.4rem;
   --font-size-xl: 3.2rem;
   --font-size-xxl: 4.8rem;
+  --font-size-xxxl: 8.8rem;
 
   --line-height-xs: 1.2rem;
   --line-height-sm: 1.4rem;
