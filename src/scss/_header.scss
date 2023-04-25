@@ -6,7 +6,7 @@
   justify-content: space-between;
   margin-top: var(--spacing-lg);
   gap: var(--spacing-sm);
-  //background-color: var(--header-background-color);
+  z-index: 2;
 
   &__logo {
     flex-basis: var(--logo-width);
