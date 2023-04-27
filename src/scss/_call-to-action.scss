@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap;
     font-size: var(--font-size-md);
     font-weight: 300;
     font-family: var(--secondary-text-font);
