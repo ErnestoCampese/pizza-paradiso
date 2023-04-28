@@ -1,5 +1,5 @@
 .cta {
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
   height: 18rem;
   width: 100%;
 
@@ -11,7 +11,7 @@
     font-size: var(--font-size-md);
     font-weight: 300;
     font-family: var(--secondary-text-font);
-    color: var(--text-color);
+    color: var(--color-light);
     flex: 1;
     padding-bottom: 4rem;
   }

@@ -8,28 +8,22 @@
 @import "welcome";
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--color-dark);
+  color: var(--color-light);
   height: 100vh;
   position: relative;
 }
 
-a:link {
-  text-decoration: none;
-  color: var(--link-color);
-}
-
+a:link,
 a:visited {
-  color: var(--link-visited-color);
-}
-
-a:hover {
-  color: var(--link-hover-color);
+  text-decoration: none;
+  color: var(--color-light);
   transition: all var(--transition-duration-sm) ease-in-out;
 }
 
+a:hover,
 a:active {
-  color: var(--link-color);
+  color: var(--color-primary);
 }
 
 .container {

@@ -1,5 +1,5 @@
 .about {
-  background-color: var(--secondary-color);
+  background-color: var(--color-darker);
 }
 
 .cards-container {
@@ -42,12 +42,12 @@
   font-weight: 600;
   font-size: var(--font-size-md);
   margin: var(--spacing-sm) 0;
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 
 .card p {
   font-size: var(--font-size-md);
-  color: var(--text-color-gray);
+  color: var(--color-gray);
   font-family: var(--secondary-text-font);
   margin: var(--spacing-sm) 0;
   flex: 1;
@@ -55,8 +55,8 @@
 
 .card a {
   text-decoration: none;
-  color: var(--primary-color);
-  border-bottom: 2px solid var(--primary-color);
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary);
   padding-bottom: var(--spacing-xs);
   text-transform: uppercase;
   font-family: var(--secondary-text-font);

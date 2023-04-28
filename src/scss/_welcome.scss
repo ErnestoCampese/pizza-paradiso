@@ -1,6 +1,6 @@
 .welcome {
   display: flex;
-  background-color: var(--background-color);
+  background-color: var(--color-dark);
   height: 55rem;
   width: 100%;
   position: relative;
@@ -27,13 +27,13 @@
     .text-elegant {
       font-family: var(--secondary-text-font);
       text-transform: uppercase;
-      color: var(--primary-color);
+      color: var(--color-primary);
       font-weight: 600;
       margin: 0;
     }
 
     .separator {
-      border-bottom: 2px solid var(--primary-color);
+      border-bottom: 2px solid var(--color-primary);
       width: 8rem;
       margin-top: var(--spacing-lg);
       margin-bottom: var(--spacing-lg);
@@ -41,7 +41,7 @@
 
     p {
       font-size: var(--font-size-md);
-      color: var(--text-color-gray);
+      color: var(--color-gray);
       font-family: var(--secondary-text-font);
       margin-top: var(--spacing-sm);
       margin-bottom: var(--spacing-xl);

@@ -17,8 +17,8 @@
 
 .btn-dark {
   background-color: transparent;
-  border: 2px solid var(--secondary-color); // Use a variable for your secondary color
-  color: var(--secondary-color);
+  border: 2px solid var(--color-dark); // Use a variable for your secondary color
+  color: var(--color-dark);
 
   &:hover {
     background-color: var(--button-dark-color);
