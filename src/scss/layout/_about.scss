@@ -38,7 +38,7 @@
 }
 
 .card h3 {
-  font-family: var(--secondary-text-font);
+  font-family: var(--font-secondary);
   font-weight: 600;
   font-size: var(--font-size-md);
   margin: var(--spacing-sm) 0;
@@ -48,7 +48,7 @@
 .card p {
   font-size: var(--font-size-md);
   color: var(--color-gray);
-  font-family: var(--secondary-text-font);
+  font-family: var(--font-secondary);
   margin: var(--spacing-sm) 0;
   flex: 1;
 }
@@ -59,7 +59,7 @@
   border-bottom: 2px solid var(--color-primary);
   padding-bottom: var(--spacing-xs);
   text-transform: uppercase;
-  font-family: var(--secondary-text-font);
+  font-family: var(--font-secondary);
   font-weight: 600;
   font-size: var(--font-size-md);
   transition: padding var(--transition-duration-xs) ease-in-out;
