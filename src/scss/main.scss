@@ -1,38 +1,10 @@
-@use "./components/buttons";
-@use "./base/reset";
 @use "./abstracts/variables";
+@use "./base/reset";
+@use "./components/buttons";
+@use "./components/links";
+@use "./components/container";
 @use "./layout/header";
 @use "./layout/hero";
 @use "./layout/call-to-action";
 @use "./layout/about";
 @use "./layout/welcome";
-
-body {
-  background-color: var(--color-dark);
-  color: var(--color-light);
-  height: 100vh;
-  position: relative;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-  color: var(--color-light);
-  transition: all var(--transition-duration-sm) ease-in-out;
-}
-
-a:hover,
-a:active {
-  color: var(--color-primary);
-}
-
-.container {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  max-width: var(--container-max-width);
-  min-height: 100%;
-  margin: 0 auto;
-  padding: 0 var(--spacing-xl);
-  gap: var(--spacing-xl);
-}

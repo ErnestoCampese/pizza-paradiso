@@ -1,0 +1,11 @@
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--color-light);
+  transition: all var(--transition-duration-sm) ease-in-out;
+}
+
+a:hover,
+a:active {
+  color: var(--color-primary);
+}
