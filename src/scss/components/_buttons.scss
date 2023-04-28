@@ -1,0 +1,31 @@
+.btn {
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  letter-spacing: var(--spacing-xxxs);
+  margin: 0;
+  padding: var(--spacing-md) var(--spacing-lg);
+  text-align: center;
+  text-transform: uppercase;
+  transition: all var(--transition-duration-xs) ease-in-out;
+
+  &:hover {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+  }
+}
+
+.btn--transparent {
+  background-color: transparent;
+  border: 2px solid var(--color-light);
+  color: var(--color-light);
+}
+
+.btn--filled {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
