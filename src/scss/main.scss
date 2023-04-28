@@ -1,11 +1,11 @@
 @use "./components/buttons";
 @use "./base/reset";
-@import "variables";
-@import "header";
-@import "hero";
-@import "call-to-action";
-@import "about";
-@import "welcome";
+@use "./abstracts/variables";
+@use "./layout/header";
+@use "./layout/hero";
+@use "./layout/call-to-action";
+@use "./layout/about";
+@use "./layout/welcome";
 
 body {
   background-color: var(--color-dark);
