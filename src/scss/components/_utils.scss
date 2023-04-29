@@ -1,0 +1,11 @@
+.divider--small {
+  border-bottom: 2px solid var(--color-primary);
+  max-width: 8rem;
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.divider--full {
+  border-bottom: 2px solid var(--color-primary);
+  width: 100%;
+}

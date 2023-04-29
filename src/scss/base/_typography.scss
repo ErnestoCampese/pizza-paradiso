@@ -1,0 +1,15 @@
+.section-header {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  letter-spacing: var(--spacing-xxxs);
+  margin: 0 0 0 0;
+  text-transform: uppercase;
+}
+
+.section-header--elegant {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+  margin: 0;
+}
