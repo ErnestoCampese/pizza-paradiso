@@ -24,7 +24,7 @@ Pizzeria Paradiso is a one-page website for a fictional pizzeria that showcases 
 
 ## Demo
 
-To see a live demo of this project, please visit [https://example.com](https://example.com).
+To see a live demo of this project, please visit [https://ernestocampese.github.io/pizza-paradiso/src/](https://ernestocampese.github.io/pizza-paradiso/src/).
 
 ## Installation
 
