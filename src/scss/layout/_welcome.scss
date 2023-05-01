@@ -1,18 +1,19 @@
 .welcome {
-  display: flex;
-  background-color: var(--color-dark);
-  width: 100%;
-  position: relative;
-
-  .container {
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-
   &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 2rem;
     flex: 0 0 50%;
     z-index: 2;
-    padding: 10rem 0 10rem var(--spacing-xxl);
+    padding: var(--spacing-xxl) 0;
+    padding-left: var(--spacing-xxl);
+
+    & .btn {
+      flex-grow: 0;
+      align-self: flex-start;
+    }
   }
 
   &-bg {
@@ -35,21 +36,5 @@
         object-fit: cover;
       }
     }
-  }
-}
-
-@keyframes scaling {
-  0%,
-  100% {
-    transform: scale(1) translate(0, 0);
-  }
-  25% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(1) translate(2%, 2%);
-  }
-  75% {
-    transform: scale(1.2);
   }
 }

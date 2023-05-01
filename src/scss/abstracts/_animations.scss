@@ -1,0 +1,15 @@
+@keyframes scaling {
+  0%,
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1) translate(2%, 2%);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+}

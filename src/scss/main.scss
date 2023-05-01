@@ -1,10 +1,11 @@
 @use "./abstracts/variables";
+@use "./abstracts/animations";
 @use "./base/fonts";
 @use "./base/reset";
 @use "./base/typography";
 @use "./components/buttons";
 @use "./components/links";
-@use "./components/container";
+@use "./components/containers";
 @use "./components/utils";
 @use "./layout/header";
 @use "./layout/hero";
@@ -12,3 +13,4 @@
 @use "./layout/about";
 @use "./layout/welcome";
 @use "./layout/features";
+@use "./layout/footer";

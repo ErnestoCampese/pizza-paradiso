@@ -6,8 +6,20 @@
   max-width: 140rem;
   min-height: 100%;
   padding: 0 var(--spacing-xl);
+  align-items: center;
+
+  &--row-reverse {
+    flex-direction: row-reverse;
+  }
 
   &--column {
     flex-flow: column nowrap;
   }
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: min-content;
+  min-height: auto; // Fallback for unsupported browser
 }
