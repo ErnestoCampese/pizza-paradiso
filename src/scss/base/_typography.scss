@@ -1,4 +1,4 @@
-.section-header {
+.section-title {
   font-family: var(--font-primary);
   font-size: var(--font-size-xl);
   font-weight: 400;
@@ -7,9 +7,16 @@
   text-transform: uppercase;
 }
 
-.section-header--elegant {
-  font-family: var(--font-primary);
-  font-size: var(--font-size-lg);
+.section-subtitle {
+  font-family: var(--font-special);
+  font-size: var(--font-size-max);
+  color: var(--color-primary);
   font-weight: 400;
   margin: 0;
+}
+
+.section-text {
+  font-size: var(--font-size-md);
+  color: var(--color-gray);
+  font-family: var(--font-secondary);
 }

@@ -13,22 +13,6 @@
     flex: 0 0 50%;
     z-index: 2;
     padding: 10rem 0 10rem var(--spacing-xxl);
-
-    .text-elegant {
-      font-family: var(--font-secondary);
-      text-transform: uppercase;
-      color: var(--color-primary);
-      font-weight: 600;
-      margin: 0;
-    }
-
-    p {
-      font-size: var(--font-size-md);
-      color: var(--color-gray);
-      font-family: var(--font-secondary);
-      margin-top: var(--spacing-sm);
-      margin-bottom: var(--spacing-xl);
-    }
   }
 
   &-bg {
